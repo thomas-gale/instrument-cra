@@ -1,7 +1,7 @@
 {
-  "name": "@cypress/instrument-cra",
-  "version": "0.0.0-development",
-  "description": "Little module for CRA applications to instrument code without ejecting react-scripts",
+  "name": "tgale-instrument-cra",
+  "version": "4.0.0-alpha.1",
+  "description": "Little module for CRA applications to instrument code without ejecting react-scripts. Hacking to work with CRA 4.x",
   "main": "index.js",
   "scripts": {
     "test": "cypress run",

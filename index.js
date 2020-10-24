@@ -60,7 +60,7 @@ function fakeConfig(envName) {
   const config = webpackFactory(envName)
   // TODO make the search more flexible
   // TODO pass resolved plugin, not just NPM module name
-  config.module.rules[2].oneOf[1].options.plugins.push('babel-plugin-istanbul')
+  config.module.rules[1].oneOf[2].options.plugins.push('babel-plugin-istanbul')
   return config
 }
 
